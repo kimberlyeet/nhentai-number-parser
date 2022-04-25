@@ -32,5 +32,6 @@ public class Hen {
     	   url = "https://nhentai.net/g/"+numb;
        }
        desk.browse(new URI(url));
+       scan.close();
 }
 }
