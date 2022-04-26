@@ -15,7 +15,9 @@ public class Browser {
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
-			}}});
+			}
+			url.setText("");
+		}});
 		JButton button = new JButton("Hentaiify");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -25,6 +27,7 @@ public class Browser {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
+				url.setText("");
 			}
 		});
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
